@@ -2,7 +2,25 @@
             body{
                 width: 1500px;
             }
+            .Enlaces a{
+                display: flex-warp;
+                flex-direction: column;
+                align-items: center;
+            }
         }
+@media (max-width: 750px) {
+    .Enlaces address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .Titulos_Dos img{
+        width: 400px;
+        height: 600px;
+    }
+}
 
 body{
     margin: 0;
