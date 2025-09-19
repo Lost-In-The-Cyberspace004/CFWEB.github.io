@@ -327,3 +327,47 @@ body{
     color: #d2d2d2;
     transition: color 0.5s;
 }
+
+.Titulo_Tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.Titulo_Tres img{
+    width: 400px;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.Titulo_Tres a{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-left: 2%;
+}
+
+.Titulo_Tres img:hover{
+    width: 410px;
+    height: 610px;
+}
+
+.Titulo_Cuatro img{
+    width: 400px;
+    height: 400px;
+    border: 2px dashed black;
+    margin-left: 22px; 
+    margin-right: 22px; 
+    margin-bottom: 22px;
+}
+
+.Titulo_Cuatro img:hover{
+    width: 410px;
+    height: 410px;
+}
+
+.Titulo_Cuatro a{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-left: 2%;
+}
