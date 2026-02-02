@@ -393,17 +393,14 @@ body{
 .Titulo_Cuatro a{
     margin-top: 2%;
     margin-bottom: 3%;
-    margin-left: 2%;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .Titulo_Cinco img{
     width: 490px;
     height: 400px;
     border: 2px dashed black;
-    margin-left: 22px; 
-    margin-right: 22px; 
-    margin-bottom: 22px;
 }
 
 .Titulo_Cinco img:hover{
