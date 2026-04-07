@@ -76,18 +76,40 @@ header a:hover{
 	align-items: center;
 }
 
-table, caption, tr, th, td {
+table,tr{
+	background-color: #BDBDBD;
 	color: white;
 	padding: 2%;
 	text-align: center;
-	border: 1px solid white;
 	text-shadow: 3px 3px 5px black;
+	border-collapse: separate;
+	border-spacing: 12px;
 }
+
+caption{
+	padding: 2%;
+	background-color:#949494;
+}
+
+th, td{
+	margin: 2%;
+	padding: 2%;
+	background-color:#949494;
+	box-shadow: -3px -2px 0px 3px #B3B3B3 inset,
+	1px 1px 0px #ffffff inset,
+	1px 1px 0px #000000;
+}
+
+
 
 .Certificaciones p{
 	list-style: none;
 	background-color: #6377FF;
-	box-shadow: -3px -2px 0px 3px #459CFF;
+	box-shadow:
+	/*Efecto de degradado estilo interfaz grafica de 1980 y 90tas*/
+	-3px -2px 0px 3px #459CFF inset, /*Color del centro. El color que mas destaca*/
+	1px 1px 0px #4FC2FF inset, /*Color que esta a la izquierda. Linecita a la izquierda*/
+	1px 1px 0px #7AD3FF; /*Color que esta en la parte de abajo. Linecita de abajo*/
 	padding: 2px;
 }
 
