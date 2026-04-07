@@ -2,24 +2,7 @@
             body{
                 width: 1500px;
             }
-            .Enlaces address {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
         }
-@media (max-width: 750px) {
-    .Enlaces address {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .Titulos_Dos img{
-        width: 400px;
-        height: 600px;
-    }
-}
 
 header ul{
 	justify-content: center;
@@ -64,6 +47,7 @@ header a:hover{
 
 .Experiencia_laboral {
 	padding: 2%;
+	margin: 3%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
