@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
 @media(max-width: 900px){
             body{
                 width: 1500px;
@@ -30,7 +33,7 @@ header a:hover{
 }
 
 .Parte_Uno{
-	flex: 2;
+	flex: 2; /*flex: 2; lo que hace es ocupar cuantos espacios en la pagina*/
 	background: linear-gradient(to right, #5E85FF, blue);
 }
 
@@ -131,6 +134,40 @@ th, td{
 	list-style: none; 
 	text-shadow: 2px 2px 4px black;
 	display: flex;
+	
+}
+
+.Contenedor_Ciberseguridad{
+	background-image: url("Imagenes/CMD.png");
+	background-no-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 8.5%;
+	
+	margin-bottom: 5%;
+}
+
+.Ciberseguridad{
+	
+	color: white;
+	
+	font-family: 'Nova Square', sans-serif;
+	font-weight: bold;
+	
+	padding: 5%;
+	
+	text-shadow: 3px 2px 4px blue;
+	
+}
+
+.Ciberseguridad h3{
+	color: white;
+	text-align: center;
+	text-shadow: 3px 2px 4px blue;  
+	text-align: center; 
+}
+
+.Ciberseguridad ul, li{
+	text-align: left;
 }
 
 .Parte_Dos{
