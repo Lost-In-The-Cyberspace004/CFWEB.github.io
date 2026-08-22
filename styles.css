@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
+.CambioDeColor{
+	background-color: #459CFF;
+}
 
 @media(max-width: 900px){
             body{
@@ -118,6 +121,8 @@ th, td{
 
 .Certificaciones h2{
 	border-radius: 12px;
+	font-family: Comic Sans MS, Comic Sans, cursive; 
+	font-weight: bold;
 }
 
 .Certificaciones div{
@@ -129,7 +134,8 @@ th, td{
 }
 
 .Certificaciones{
-	color: white; 
+	color: white;
+	margin-top: -6%;
 	padding: 2%;
 	list-style: none; 
 	text-shadow: 2px 2px 4px black;
@@ -139,30 +145,37 @@ th, td{
 
 .Contenedor_Ciberseguridad{
 	background-image: url("Imagenes/CMD.png");
-	background-no-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+
 	padding-bottom: 8.5%;
 	
 	margin-bottom: 5%;
 }
 
 .Ciberseguridad{
-	
 	color: white;
-	
+
 	font-family: 'Nova Square', sans-serif;
 	font-weight: bold;
 	
-	padding: 5%;
+	padding: 1% 6% 10% 3%;
 	
 	text-shadow: 3px 2px 4px blue;
 	
 }
 
 .Ciberseguridad h3{
+
+	padding-top: 5%;
+
 	color: white;
 	text-align: center;
-	text-shadow: 3px 2px 4px blue;  
+	text-shadow: 3px 2px 4px blue;
 	text-align: center; 
 }
 
@@ -175,21 +188,8 @@ th, td{
 	background: linear-gradient(to left, #5E85FF, blue);
 }
 
-
-.Redes_Sociales_Footer{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.Redes_Sociales_Footer a{
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.Redes_Sociales_Footer a:hover{
-    color: black;
-    transition: color 0.5s;
+.ElementoEscondido{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	opacity: 100%;
 }
