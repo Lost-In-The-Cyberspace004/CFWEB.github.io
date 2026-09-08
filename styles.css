@@ -62,57 +62,6 @@ header a:hover {
 	text-shadow: 4px 4px 4px black;
 }
 
-.Tabla {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.Tabla a {
-	color: white;
-	text-decoration: none;
-}
-
-.Tabla a:hover {
-	text-decoration: underline;
-}
-
-table,
-tr {
-	background-color: #BDBDBD;
-	color: white;
-	padding: 2%;
-	text-align: center;
-	text-shadow: 3px 3px 5px black;
-	border-collapse: separate;
-	border-spacing: 12px;
-}
-
-caption {
-	padding: 2%;
-	background-color: #949494;
-}
-
-caption,
-table {
-	box-shadow:
-		1px 0.5px 0px #ffffff inset,
-		1px 0.5px 0px #000000;
-	;
-}
-
-th,
-td {
-	margin: 2%;
-	padding: 2%;
-	background-color: #949494;
-	box-shadow: -3px -2px 0px 3px #B3B3B3 inset,
-		1px 1px 0px #ffffff inset,
-		1px 1px 0px #000000;
-}
-
-
-
 .Certificaciones p {
 	list-style: none;
 	background-color: #6377FF;
