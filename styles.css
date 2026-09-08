@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-.CambioDeColor{
+.CambioDeColor {
 	background-color: #459CFF;
 }
 
-@media(max-width: 900px){
-            body{
-                width: 1500px;
-            }
-        }
+@media(max-width: 900px) {
+	body {
+		width: 1500px;
+	}
+}
 
-header ul{
+header ul {
 	justify-content: center;
 	list-style-type: disc;
 	display: flex;
@@ -18,33 +18,35 @@ header ul{
 	gap: 20px;
 }
 
-header a{
+header a {
 	text-decoration: none;
 	font-family: tahoma;
 	font-weight: bold;
 	color: yellow;
-	text-shadow: 3px 3px 5px #000000; /*Para sombras en texto, usamos text-shadow*/
+	text-shadow: 3px 3px 5px #000000;
+	/*Para sombras en texto, usamos text-shadow*/
 	/*box-shadow: px px px color; es para contenedores tipo div, sections, article etc...*/
 }
 
-header a:hover{
+header a:hover {
 	text-decoration: underline;
 }
 
-.Contenedor_De_Informacion{
+.Contenedor_De_Informacion {
 	display: flex;
 }
 
-.Parte_Uno{
-	flex: 2; /*flex: 2; lo que hace es ocupar cuantos espacios en la pagina*/
+.Parte_Uno {
+	flex: 2;
+	/*flex: 2; lo que hace es ocupar cuantos espacios en la pagina*/
 	background: linear-gradient(to right, #5E85FF, blue);
 }
 
-.Cont_1{
+.Cont_1 {
 	justify-content: center;
-}	
+}
 
-.Cont_1 p{
+.Cont_1 p {
 	color: white;
 	padding: 2%;
 	text-align: left;
@@ -60,22 +62,23 @@ header a:hover{
 	text-shadow: 4px 4px 4px black;
 }
 
-.Tabla{
+.Tabla {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.Tabla a{
+.Tabla a {
 	color: white;
 	text-decoration: none;
 }
 
-.Tabla a:hover{
+.Tabla a:hover {
 	text-decoration: underline;
 }
 
-table,tr{ 
+table,
+tr {
 	background-color: #BDBDBD;
 	color: white;
 	padding: 2%;
@@ -85,47 +88,52 @@ table,tr{
 	border-spacing: 12px;
 }
 
-caption{
+caption {
 	padding: 2%;
-	background-color:#949494;
+	background-color: #949494;
 }
 
-caption, table{
+caption,
+table {
 	box-shadow:
-	1px 0.5px 0px #ffffff inset,
-	1px 0.5px 0px #000000;
+		1px 0.5px 0px #ffffff inset,
+		1px 0.5px 0px #000000;
 	;
 }
 
-th, td{
+th,
+td {
 	margin: 2%;
 	padding: 2%;
-	background-color:#949494;
+	background-color: #949494;
 	box-shadow: -3px -2px 0px 3px #B3B3B3 inset,
-	1px 1px 0px #ffffff inset,
-	1px 1px 0px #000000;
+		1px 1px 0px #ffffff inset,
+		1px 1px 0px #000000;
 }
 
 
 
-.Certificaciones p{
+.Certificaciones p {
 	list-style: none;
 	background-color: #6377FF;
 	box-shadow:
-	/*Efecto de degradado estilo interfaz grafica de 1980 y 90tas*/
-	-3px -2px 0px 3px #459CFF inset, /*Color del centro. El color que mas destaca*/
-	1px 1px 0px #4FC2FF inset, /*Color que esta a la izquierda. Linecita a la izquierda*/
-	1px 1px 0px #7AD3FF; /*Color que esta en la parte de abajo. Linecita de abajo*/
+		/*Efecto de degradado estilo interfaz grafica de 1980 y 90tas*/
+		-3px -2px 0px 3px #459CFF inset,
+		/*Color del centro. El color que mas destaca*/
+		1px 1px 0px #4FC2FF inset,
+		/*Color que esta a la izquierda. Linecita a la izquierda*/
+		1px 1px 0px #7AD3FF;
+	/*Color que esta en la parte de abajo. Linecita de abajo*/
 	padding: 2px;
 }
 
-.Certificaciones h2{
+.Certificaciones h2 {
 	border-radius: 12px;
-	font-family: Comic Sans MS, Comic Sans, cursive; 
+	font-family: Comic Sans MS, Comic Sans, cursive;
 	font-weight: bold;
 }
 
-.Certificaciones div{
+.Certificaciones div {
 	margin-left: 5px;
 	margin-right: 5px;
 	text-align: center;
@@ -133,17 +141,17 @@ th, td{
 	flex: 1;
 }
 
-.Certificaciones{
+.Certificaciones {
 	color: white;
 	margin-top: -6%;
 	padding: 2%;
-	list-style: none; 
+	list-style: none;
 	text-shadow: 2px 2px 4px black;
 	display: flex;
-	
+
 }
 
-.Contenedor_Ciberseguridad{
+.Contenedor_Ciberseguridad {
 	background-image: url("Imagenes/CMD.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -153,43 +161,117 @@ th, td{
 	height: 100%;
 
 	padding-bottom: 8.5%;
-	
+
 	margin-bottom: 5%;
 }
 
-.Ciberseguridad{
+.Ciberseguridad {
 	color: white;
 
 	font-family: 'Nova Square', sans-serif;
 	font-weight: bold;
-	
+
 	padding: 1% 6% 10% 3%;
-	
+
 	text-shadow: 3px 2px 4px blue;
-	
+
 }
 
-.Ciberseguridad h3{
+.Ciberseguridad h3 {
 
 	padding-top: 5%;
 
 	color: white;
 	text-align: center;
 	text-shadow: 3px 2px 4px blue;
-	text-align: center; 
+	text-align: center;
 }
 
-.Ciberseguridad ul, li{
+.Ciberseguridad ul,
+li {
 	text-align: left;
 }
 
-.Parte_Dos{
+.Parte_Dos {
 	flex: 1;
 	background: linear-gradient(to left, #5E85FF, blue);
 }
 
-.ElementoEscondido{
+.ElementoEscondido {
 	color: white;
 	text-shadow: 2px 2px 2px black;
 	opacity: 100%;
+}
+
+.ContenedorBotonDecorado {
+	position: relative;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.Gorrito {
+	position: absolute;
+	top: -22px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 35px;
+	height: auto;
+	z-index: 3;
+	pointer-events: none;
+}
+
+.Orejita1, .Orejita2{
+	position: absolute;
+	top: -41px;
+	width: 35px;
+}
+
+.Orejita1{
+	z-index: 1;
+	left: 52%;
+}
+
+.Orejita2{
+	z-index: 1;
+	left: 26%;
+}
+
+.Espadita {
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	transform: translateY(-50%) rotate(-15deg);
+	width: 30px;
+	height: auto;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.Escudo {
+	position: absolute;
+	top: 50%;
+	right: -15px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: auto;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.ProyectosEnlace {
+	background-color: white;
+	border: 2px solid red;
+	border-radius: 22px;
+	text-decoration: none;
+	padding: 10px 25px 10px 25px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: bold;
+	text-shadow: 3px 3px 4px rgb(129, 129, 129);
+	color: red;
+}
+
+.ProyectosEnlace:hover {
+	text-decoration: underline;
+	border: 2px solid rgb(171, 0, 0);
+	color: rgb(171, 0, 0);
 }

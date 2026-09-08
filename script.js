@@ -4,23 +4,36 @@ Contenedor.classList.add("CambioDeColor");
 const MensajeProyectoPersonal = document.getElementById('Personal');
 const MensajeEscondido = document.querySelector('.MensajeEscondido');
 const Anio = document.getElementById('FechaActual');
+const OS = document.getElementById('OS');
 
 function Cronometro() {
     setTimeout(() => {
         MensajeProyectoPersonal.style.color = "white";
         MensajeProyectoPersonal.style.textShadow = "2px 2px 5px black";
         MensajeProyectoPersonal.style.textDecoration = "None";
+        OS.style.color = "white";
+        OS.style.textShadow = "2px 2px 5px black";
+        OS.style.textDecoration = "None";
     }, 3000);
 }
 
-function ProyectosPersonales() {
-    MensajeProyectoPersonal.addEventListener('click', (event) => {
-        MensajeProyectoPersonal.style.color = "red";
-        MensajeProyectoPersonal.style.textShadow = "2px 2px 2px white";
-        MensajeProyectoPersonal.style.textDecoration = "line-through";
-        Cronometro();
-    });
-}
+// function OpSy() {
+//     OS.addEventListener('click', (event) => {
+//         OS.style.color = "red";
+//         OS.style.textShadow = "2px 2px 2px white";
+//         OS.style.textDecoration = "line-through";
+//         Cronometro();
+//     });
+// }
+
+// function VisualNovel() {
+//     MensajeProyectoPersonal.addEventListener('click', (event) => {
+//         MensajeProyectoPersonal.style.color = "red";
+//         MensajeProyectoPersonal.style.textShadow = "2px 2px 2px white";
+//         MensajeProyectoPersonal.style.textDecoration = "line-through";
+//         Cronometro();
+//     });
+// }
 
 function TextoEscondido() {
     MensajeEscondido.addEventListener('click', (event) => {
@@ -35,7 +48,7 @@ function TextoEscondido() {
     });
 }
 
-function AnioPagina(){
+function AnioPagina() {
     const fechaActual = new Date();
     Anio.textContent = fechaActual.getFullYear();
 }
@@ -51,5 +64,6 @@ console.log(operacion);
 TotalHoras.textContent = operacion;
 
 AnioPagina();
-ProyectosPersonales();
+//VisualNovel();
+//OpSy();
 TextoEscondido();
