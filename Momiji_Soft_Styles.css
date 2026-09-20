@@ -1,0 +1,74 @@
+body {
+    background-image: url(Imagenes/Cascadas_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contenedor {
+    border: 2px solid red;
+    box-shadow: 2px 2px 10px red;
+    background-image: url(Imagenes/Momiji_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ContenedorImgT {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ContenedorTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Titulo {
+    text-shadow: 2px 2px 3px red;
+    color: white;
+}
+
+.Notas {
+    bottom: 22px;
+    margin-left: 22px;
+    color: white;
+    text-shadow: 2px 2px 3px red;
+}
+
+.ContenedorProyectos1 {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 50px;
+}
+
+.Web,
+.Software,
+.Videojuegos {
+    border: 1px solid red;
+    margin-top: 3%;
+    flex: 5;
+    padding: 20px;
+    box-shadow: 2px 2px 10px red;
+    overflow-y: auto;
+    max-height: 400px;
+    background-color: white;
+}
+
+.Web a, .Software a, .Videojuegos a {
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Web a:hover, .Software a:hover, .Videojuegos a:hover {
+    text-decoration: underline;
+}
