@@ -9,6 +9,11 @@ const framesVideojuegos = document.getElementById('FrameVideojuegos');
 const Musica = document.getElementById('Musica')
 const Mensaje = document.getElementById('Mensaje')
 
+const Negative = document.getElementById('ProyectoProhibido');
+Negative.addEventListener('click', (event) => {
+    Negative.style.color = "red";
+})
+
 let controlador = 0
 let Musicacontrol = 0
 botonProyectos.addEventListener('click', (event) => {
