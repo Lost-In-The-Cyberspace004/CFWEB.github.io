@@ -62,6 +62,38 @@ header a:hover {
 	text-shadow: 4px 4px 4px black;
 }
 
+#CfGaMeSProyectos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	border : 2px solid #459CFF;
+	box-shadow: 3px 3px 10px black;
+	background-color: #6377FF;
+}
+
+#CfGaMeSProyectos h3{
+	color: yellow;
+	text-shadow: 2px 2px 3px black;
+	font-family: Comic Sans MS, Comic Sans, cursive; 
+	font-weight: bold;
+	text-align: center;
+}
+
+#CfGaMeSProyectos ul, li, a{
+	color : white;
+	text-shadow: 3px 3px 5px black;
+}
+
+#CfGaMeSProyectos a{
+	text-align: center;
+	text-decoration: none;
+}
+
+#CfGaMeSProyectos a:hover{
+	text-decoration: underline;
+}
+
 .Certificaciones p {
 	list-style: none;
 	background-color: #6377FF;
