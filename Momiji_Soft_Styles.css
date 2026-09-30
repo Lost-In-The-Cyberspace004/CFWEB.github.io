@@ -1,7 +1,18 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
 body {
     background-image: url(Imagenes/Cascadas_1.gif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.Logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .Contenedor {
@@ -24,16 +35,10 @@ body {
     gap: 20px;
 }
 
-.ContenedorTitulo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
 .Titulo {
     text-shadow: 2px 2px 3px red;
     color: white;
+    bottom: -100px;
 }
 
 .Notas {

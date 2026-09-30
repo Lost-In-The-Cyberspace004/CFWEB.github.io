@@ -23,7 +23,7 @@ botonProyectos.addEventListener('click', (event) => {
 
         Musica.play()
 
-        Mensaje.textContent = "Musica: (Fan-Made)_Momiji's_Theme_ Awakening_Wolf's_Instinct"
+        Mensaje.innerHTML = "Musica: (Fan-Made)_Momiji's_Theme_ Awakening_Wolf's_Instinct <br> Creditos al logo: 'saulgoodman_334' en discord"
         Mensaje.style.textAlign = "center"
         Mensaje.style.color = "white"
         Mensaje.style.textShadow = "2px 2px 8px red"
@@ -54,10 +54,10 @@ botonProyectos.addEventListener('click', (event) => {
         contenedor.style.backgroundAttachment = "fixed"
 
         controladorMensaje.style.display = "flex"
-    
-    } else if (controlador == 2){
+
+    } else if (controlador == 2) {
         controlador = 0
-        
+
         Musicacontrol = 0
         Musica.pause()
         Musica.currentTime = 0
@@ -69,3 +69,41 @@ botonProyectos.addEventListener('click', (event) => {
 });
 
 //Videojuegos Momiji-Soft
+
+//Mensaje titulo
+const BotonVerContenido = document.getElementById('Presionar');
+let controladorInfoInicial = 0;
+const ContenedorInformacionInicial = document.getElementById('InformacionDemas');
+const TituloContenedorInformacionInicial = document.getElementById('Titulo');
+const ContenidoInformacionInicial = document.getElementById('Contenido');
+
+BotonVerContenido.addEventListener('click', (event) => {
+    controladorInfoInicial += 1;
+
+    if (controladorInfoInicial == 1) {
+        ContenedorInformacionInicial.style.display = "block";
+        ContenedorInformacionInicial.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+        ContenedorInformacionInicial.style.marginTop = "-30px";
+        ContenedorInformacionInicial.style.marginBottom = "20px";
+        ContenedorInformacionInicial.style.padding = "1%";
+        ContenedorInformacionInicial.style.border = "2px solid red";
+        ContenedorInformacionInicial.style.boxShadow = "3px 3px 8px red";
+
+        TituloContenedorInformacionInicial.textContent = "Momiji-Soft~"
+        TituloContenedorInformacionInicial.style.textAlign = "center";
+        TituloContenedorInformacionInicial.style.color = "white";
+        TituloContenedorInformacionInicial.style.textShadow = "3px 3px 3px red";
+
+        ContenidoInformacionInicial.style.textAlign = "center";
+        ContenidoInformacionInicial.style.marginTop = "20px";
+        ContenidoInformacionInicial.style.color = "white";
+        ContenidoInformacionInicial.style.textShadow = "3px 3px 3px red";
+        ContenidoInformacionInicial.style.padding = "10px";
+        ContenidoInformacionInicial.innerHTML = "Proyectos hechos con mucho amor, atencion, dedicacion y honor al personaje de touhou: <strong> Momiji inubashiri </strong> <3 <br> Estoy enamorado <3 <br> Disfrutalos tanto como yo disfrute hacerlos <3"
+
+
+    } else if (controladorInfoInicial == 2) {
+        controladorInfoInicial = 0;
+        ContenedorInformacionInicial.style.display = "none";
+    }
+});
