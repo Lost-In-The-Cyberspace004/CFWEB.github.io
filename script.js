@@ -1,39 +1,9 @@
 const Contenedor = document.querySelector(".CambioDeColorTodo");
 Contenedor.classList.add("CambioDeColor");
 
-const MensajeProyectoPersonal = document.getElementById('Personal');
 const MensajeEscondido = document.querySelector('.MensajeEscondido');
 const Anio = document.getElementById('FechaActual');
 const OS = document.getElementById('OS');
-
-function Cronometro() {
-    setTimeout(() => {
-        MensajeProyectoPersonal.style.color = "white";
-        MensajeProyectoPersonal.style.textShadow = "2px 2px 5px black";
-        MensajeProyectoPersonal.style.textDecoration = "None";
-        OS.style.color = "white";
-        OS.style.textShadow = "2px 2px 5px black";
-        OS.style.textDecoration = "None";
-    }, 3000);
-}
-
-// function OpSy() {
-//     OS.addEventListener('click', (event) => {
-//         OS.style.color = "red";
-//         OS.style.textShadow = "2px 2px 2px white";
-//         OS.style.textDecoration = "line-through";
-//         Cronometro();
-//     });
-// }
-
-// function VisualNovel() {
-//     MensajeProyectoPersonal.addEventListener('click', (event) => {
-//         MensajeProyectoPersonal.style.color = "red";
-//         MensajeProyectoPersonal.style.textShadow = "2px 2px 2px white";
-//         MensajeProyectoPersonal.style.textDecoration = "line-through";
-//         Cronometro();
-//     });
-// }
 
 function TextoEscondido() {
     MensajeEscondido.addEventListener('click', (event) => {
@@ -47,6 +17,30 @@ function TextoEscondido() {
         }, 3000);
     });
 }
+
+
+
+
+
+const Python = document.getElementById('Python');
+function PythonFuncion(){
+    Python.addEventListener('click', (event) => {
+        Python.textContent = "Lenguaje de mierda, no sabes cuanto odie aprender esta basura"
+        Python.style.color = "red"
+
+        setTimeout((event) => {
+            Python.style.color = "white";
+            Python.textContent = "Python"
+        }, 3000);
+
+    });
+}
+
+
+
+
+
+
 
 function AnioPagina() {
     const fechaActual = new Date();
@@ -63,7 +57,10 @@ let operacion = numero1H + numero2H;
 console.log(operacion);
 TotalHoras.textContent = operacion;
 
+
+
+
+
 AnioPagina();
-//VisualNovel();
-//OpSy();
 TextoEscondido();
+PythonFuncion();
